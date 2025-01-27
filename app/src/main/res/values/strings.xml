@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="tips">This demo shows how to read or write GPIO value through JNI.Please make sure the gpio you want to operate is available.We recommend these GPIOs for you to test on Quectel EVB,these GPIOs are used to control LEDs(1to8) on EVB.SC600: 1:GPIO21 2:GPIO20 3:GPIO23 4:GPIO22 5:GPIO98 6:GPIO33 7:GPIO44 8:GPIO90 SC66: 3:GPIO73 4:GPIO74 5:GPIO56 6:GPIO40 SC200R: 1:GPIO93 2：GPIO46 3:GPIO23 4:GPIO47 6:GPIO95 7:GPIO45 8:GPIO59. For quick test, you can export the GPIO and do as follows: 1:chmod 0666 value 2:setenforce 0\n</string>
 </resources>
